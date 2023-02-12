@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+}
+.card-1 {
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+
+}
+.main-text {
+    color: white;
+    margin: auto;
+
+
+}
+
+.services {
+    margin: 20px 50px 20px 50px;
+    background-color: #0D0D0D;
+    padding: 1em;
+
+}
+.services-h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin: auto;
+    margin-bottom: 1em;
+}
+.services-card{
+    width: 18rem;
+    justify-content: around;
+}
+.rounded-circle {
+    justify-content: center;
+}
+.contact-card {
+    margin: 20px 50px 20px 50px;
+    background-color: #0D0D0D;
+}
+.contact-h2{
+    font-size: 30px;
+    padding: 15px;
+    color: #fff;
+}
+.b-icon{
+    font-size: 20px;
+}
+.footer-body{
+    background-color: black;
+}
+.footer-links{
+    
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    
+   .main-text {
+       color: white;
+       font-size: 4px;
+       width: 100vw;
+    }
+     
+    .services {
+       margin: auto;
+       background-color: #0D0D0D;
+       display: block;
+       
+    }   
+    .services-h2 {
+
+       text-align: center;
+       font-size: 2rem;
+       color: #6BFF14;
+       margin: auto;
+       margin-bottom: 1em;   
+    }
+    .services-card {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .services {
+       margin: auto;
+       background-color: #0D0D0D;
+       display: block;
+       
+    }   
+    .services-h2 {
+
+       text-align: center;
+       font-size: 3rem;
+       color: #6BFF14;
+       margin: auto;
+       margin-bottom: 1em;   
+    }
+    .services-card {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    
+    
+    
+    
+}
+@media (min-width: 1024px){
+    
+    
+    
+    
+    
+}
